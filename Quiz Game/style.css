@@ -1,0 +1,51 @@
+
+    
+    .quiz-container {
+        background-color:rgba(0,255,0,0.30);
+        color: blue;
+        padding: 20px;
+        /* margin:100 */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    
+    .choices {
+        margin-top: 20px;
+        color: black;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+    
+    #submitBtn {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #submitBtn:hover {
+        background-color: #218838;
+    }
+    
+    #result {
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    
+    #scoreDisplay, #time {
+        margin-top: 10px;
+    }
+    
+

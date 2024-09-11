@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+		
+        <h2 id="question">Question Text</h2>
+
+        <div class="choices">
+            <label>
+                <input type="radio" name="choice" value="a" class="choice">
+                <span id="choice1">Choice 1</span>
+            </label>
+            <label>
+                <input type="radio" name="choice" value="b" class="choice">
+                <span id="choice2">Choice 2</span>
+            </label>
+            <label>
+                <input type="radio" name="choice" value="c" class="choice">
+                <span id="choice3">Choice 3</span>
+            </label>
+            <label>
+                <input type="radio" name="choice" value="d" class="choice">
+                <span id="choice4">Choice 4</span>
+            </label>
+        </div>
+
+        <button id="submitBtn">Submit</button>
+
+        <div id="result"></div>
+        <p id="scoreDisplay"></p>
+        <p id="time">Time left: 30s</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
